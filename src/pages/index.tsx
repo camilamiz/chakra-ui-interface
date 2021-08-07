@@ -1,5 +1,6 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Stack } from "@chakra-ui/react";
 import { Banner } from "../components/Banner";
+import { TravelCategories } from "../components/TravelCategories";
 
 export default function Home() {
   return (
@@ -7,7 +8,10 @@ export default function Home() {
       w="100wh"
       h={`${100-24}vh`}
     >
-      <Banner />
+      <Stack w="100%">
+        <Banner />
+        <TravelCategories />
+      </Stack>
     </Flex>
   )
 }
