@@ -102,7 +102,7 @@ export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { slug } = params;
-  const res = await fetch(`http://localhost:3004/continents?name=${String(slug)}`);
+  const res = await fetch(`http://localhost:3004/continents?slug=${String(slug)}`);
   const data = await res.json();
   const continent = data[0];
 
