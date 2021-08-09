@@ -8,9 +8,11 @@ export function GoBackLink({ currentPath }: GoBackLinkProps) {
   if (currentPath !== '/') {
     return(
       <Link href="/">
-        <Img src="/goBack.svg"  boxSize="2rem"/>
+        <Img src="/goBack.svg"  boxSize="2.5rem"/>
       </Link>
     );
   }
-  return('');
+  return(
+    <></>
+  );
 }
