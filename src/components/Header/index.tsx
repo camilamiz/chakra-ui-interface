@@ -1,6 +1,11 @@
 import { Box, Flex, Img, SimpleGrid } from '@chakra-ui/react';
+import { useRouter } from 'next/dist/client/router';
+
+import { GoBackLink } from './GoBackLink';
 
 export function Header() {
+  const { asPath } = useRouter();
+
   return(
     <Flex
       as="header"
@@ -11,7 +16,9 @@ export function Header() {
       mx="auto"
     >
       <SimpleGrid columns={3} spacing={10} w="100%">
-        <Box></Box>
+        <Box>
+          <GoBackLink currentPath={asPath} />
+        </Box>
         <Box align="center"><Img src="/logo.svg" /></Box>
         <Box></Box>
       </SimpleGrid>
