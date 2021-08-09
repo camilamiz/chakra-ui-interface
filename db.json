@@ -5,39 +5,39 @@
       "name": "Europa",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
-      "image": "some url",
+      "image": "https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
       "cities": [
         {
           "name": "Londres",
           "country": "Reino Unido",
-          "image": "some url",
-          "flag": "some url"
+          "image": "https://images.unsplash.com/photo-1587726480710-003743795e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIzOTYxNjY3&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit",
+          "flag": "https://image.flaticon.com/icons/png/512/197/197374.png"
         },
         {
           "name": "Paris",
           "country": "França",
-          "image": "some url",
-          "flag": "some url"
+          "image": "https://images.unsplash.com/photo-1570168201769-8f2ca2e012de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=502&q=80",
+          "flag": "https://image.flaticon.com/icons/png/512/197/197560.png"
         },
         {
           "name": "Roma",
           "country": "Itália",
-          "image": "some url",
-          "flag": "some url"
+          "image": "https://images.unsplash.com/photo-1583422095309-55daabc9cc78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+          "flag": "https://image.flaticon.com/icons/png/512/197/197626.png"
         },
         {
           "name": "Praga",
           "country": "República Tcheca",
-          "image": "some url",
-          "flag": "some url"
+          "image": "https://images.unsplash.com/photo-1562624475-96c2bc08fab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+          "flag": "https://image.flaticon.com/icons/png/512/197/197576.png"
         },
         {
           "name": "Amsterdã",
           "country": "Holanda",
-          "image": "some url",
-          "flag": "some url"
+          "image": "https://images.unsplash.com/photo-1598795474179-7c279bedcbc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=495&q=80",
+          "flag": "https://image.flaticon.com/icons/png/512/323/323275.png"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "name": "Africa",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
       "image": "some url",
       "cities": [
@@ -87,7 +87,7 @@
       "name": "Ásia",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
       "image": "some url",
       "cities": [
@@ -128,7 +128,7 @@
       "name": "América do Norte",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
       "image": "some url",
       "cities": [
@@ -169,7 +169,7 @@
       "name": "América do Sul",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
       "image": "some url",
       "cities": [
@@ -210,7 +210,7 @@
       "name": "Oceania",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "totalCountries": 50,
-      "languages": "60",
+      "languages": 60,
       "most100Cities": 27,
       "image": "some url",
       "cities": [
