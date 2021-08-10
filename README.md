@@ -7,10 +7,10 @@ In this exercise, we are given a Figma layout with the page design specification
 <h2>Layout</h2>
 This is how the application is suppose to look like.
 <h4>Web version</h4>
-![web](https://user-images.githubusercontent.com/39624192/128903774-96f6a87e-ec16-4c42-935b-cc866a55d032.png)
+![web](https://github.com/camilamiz/chakra-ui-interface/blob/main/figmaReferences/web-version.png)
 
 <h4>Mobile version</h4>
-![mobile](https://user-images.githubusercontent.com/39624192/128903851-34602f4c-ef7a-4c37-bd05-44298bce2e3f.png)
+![mobile](https://github.com/camilamiz/chakra-ui-interface/blob/main/figmaReferences/web-version.png)
 
 <h2>Used tecnologies</h2>
 <ul>
