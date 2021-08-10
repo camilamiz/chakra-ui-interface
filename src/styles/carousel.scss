@@ -1,19 +1,46 @@
-.swiper-button {
+.swiper-button-next {
+  color: #FFBA08;
+}
 
-  &-next {
-    color: #FFBA08;
-    margin-right: 2.5rem;
+.swiper-button-prev {
+  color: #FFBA08;
+}
+
+@media(max-width: 1080px) {
+  .swiper-button-prev {
+    left: 2.5rem;
   }
 
-  &-prev {
-    color: #FFBA08;
-    margin-left: 2.5rem;
+  .swiper-button-next {
+    right: 2.5rem;
+  }
+}
+
+@media(max-width: 720px) {
+  .swiper-button-prev {
+    left: 0.75rem;
+  }
+
+  .swiper-button-next {
+    right: 0.75rem;
+  }
+}
+
+@media(max-width: 1080px) {
+  .swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media(max-width: 720px) {
+  .swiper-pagination-bullet {
+    width: 0.5rem;
+    height: 0.5rem;
   }
 }
 
 .swiper-pagination-bullet {
-  width: 1rem;
-  height: 1rem;
   background-color: #999999;
 
   &-active {

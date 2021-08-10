@@ -12,9 +12,9 @@ export default function Home() {
         <Flex pb="35px" mb="25px" verticalAlign="center" justify="center" w="100%">
           <Stack align="center" justify="center">
             <Flex>
-              <Flex w="90px" borderBottom="3px solid" borderColor="gray.500" mb="56px"/>
+              <Flex w="90px" borderBottom="3px solid" borderColor="gray.500" mb={["1.5rem", "2.5rem", "3.5rem"]}/>
             </Flex>
-            <Text fontSize="36" fontWeight="500" color="gray.500" align="center">Vamos nessa?<br />Então escolha seu continente</Text>
+            <Text fontSize={["1.25rem", "1.75rem", "2.25rem"]} fontWeight="500" color="gray.500" align="center">Vamos nessa?<br />Então escolha seu continente</Text>
           </Stack>
         </Flex>
         <Carousel />

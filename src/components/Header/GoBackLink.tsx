@@ -8,7 +8,7 @@ export function GoBackLink({ currentPath }: GoBackLinkProps) {
   if (currentPath !== '/') {
     return(
       <Link href="/">
-        <Img src="/goBack.svg"  boxSize="2.5rem"/>
+        <Img src="/goBack.svg"  boxSize={["1rem", "1.5rem", "2rem"]} />
       </Link>
     );
   }

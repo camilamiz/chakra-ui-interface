@@ -8,7 +8,7 @@ SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
 export function Carousel() {
   return(
     <Flex w="100%" align="center" justify="center" mx="auto" pb="50px">
-      <Flex justify="center" w="90%">
+      <Flex justify="center" w={["100%", "100%", "90%"]}>
         <Swiper
           slidesPerView={1}
           navigation
@@ -21,7 +21,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -31,8 +31,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">Europa</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">O continente mais antigo</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">Europa</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>O continente mais antigo</Text>
                 </Flex>
               </Flex>
             </Link>
@@ -42,7 +42,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -52,8 +52,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">Africa</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">A maior espetáculo de vida selvagem no mundo</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">Africa</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>A maior espetáculo de vida selvagem no mundo</Text>
                 </Flex>
               </Flex>
             </Link>
@@ -63,7 +63,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -73,8 +73,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">Ásia</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">Das estepes nômades do Cazaquistão às ruas frenéticas de Hanoi</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">Ásia</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>Das estepes nômades do Cazaquistão às ruas frenéticas de Hanoi</Text>
                 </Flex>
               </Flex>
             </Link>
@@ -84,7 +84,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -94,8 +94,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">América do Norte</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">Florestas majestosas, desertos e metrópoles pulsantes</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">América do Norte</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>Florestas majestosas, desertos e metrópoles pulsantes</Text>
                 </Flex>
               </Flex>
             </Link>
@@ -105,7 +105,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -115,8 +115,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">América do Sul</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">Picos Andinos, floresta amazônica, geleiras da Patagônia, ruínas incas</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">América do Sul</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>Picos Andinos, floresta amazônica, geleiras da Patagônia, ruínas incas</Text>
                 </Flex>
               </Flex>
             </Link>
@@ -126,7 +126,7 @@ export function Carousel() {
               <Flex justify="center">
                 <Flex
                   w="100%"
-                  h="450px"
+                  h={["15.5rem", "22rem", "28rem"]}
                   align="center"
                   justify="center"
                   direction="column"
@@ -136,8 +136,8 @@ export function Carousel() {
                   bgPosition="center"
                   textAlign="center"
                 >
-                  <Heading color="gray.100" fontWeight="700" fontSize="48px" pb="16px">Oceania</Heading>
-                  <Text color="gray.100" fontWeight="700" fontSize="24px">Remota, bela e amigável</Text>
+                  <Heading color="gray.100" fontWeight="700" fontSize={["1.5rem", "2.25rem", "3rem"]} pb="16px">Oceania</Heading>
+                  <Text color="gray.100" fontWeight="700" fontSize={["0.875rem", "1.2rem", "1.5rem"]}>Remota, bela e amigável</Text>
                 </Flex>
               </Flex>
             </Link>
