@@ -22,7 +22,7 @@ This is how the application is suppose to look like.
 </ul>
 
 <h2>Application</h2>
-Here is a <a href="https://www.youtube.com/watch?v=jGYd-vjNckE">quick video</a> showing the end result.
+Here is a <a target="_blank" href="https://www.youtube.com/watch?v=jGYd-vjNckE">quick video</a> showing the end result.
 
 <h2>How to run</h2>
 <p>1. First, we have to clone this project by running in a terminal window the command below:<p>
