@@ -35,9 +35,9 @@ Here is a <a href="https://www.youtube.com/watch?v=jGYd-vjNckE">quick video</a> 
 <pre>$ yarn</pre>
 
 <p>4. Start the aplication</p>
-<pre>yarn start</pre>
+<pre>$ yarn start</pre>
 
 <p>5. In other terminal window run the command below to start the fake api</p>
-<pre>json-server --watch db.json --port 3004</pre>
+<pre>$ json-server --watch db.json --port 3004</pre>
 
 Now you can access the application by accessing in your browser the address https://localhost:3000
