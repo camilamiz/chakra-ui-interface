@@ -26,18 +26,18 @@ This is how the application is suppose to look like.
 
 <h2>How to run</h2>
 <p>1. First, we have to clone this project by running in a terminal window the command below:<p>
-<code>$ git clone git@github.com:camilamiz/chakra-ui-interface.git</code>
-  
+<pre>$ git clone git@github.com:camilamiz/chakra-ui-interface.git</pre>
+
 <p>2. Access the cloned repository with:</p>
-<code>$ cd chakra-ui-interface</code>
+<pre>$ cd chakra-ui-interface</pre>
 
 <p>3. Install the dependencies by running:</p>
-<code>$ yarn</code>
+<pre>$ yarn</pre>
 
 <p>4. Start the aplication</p>
-<code>yarn start</code>
+<pre>yarn start</pre>
 
 <p>5. In other terminal window run the command below to start the fake api</p>
-<code>json-server --watch db.json --port 3004</code>
+<pre>json-server --watch db.json --port 3004</pre>
 
 Now you can access the application by accessing in your browser the address https://localhost:3000
