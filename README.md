@@ -1,7 +1,7 @@
 <h1>Building an interface with Chakra-ui and Next.js</h1>
 
 <h2>Description</h2>
-This challenge is part of Rocketseat's (@rocketseat-education) ReactJS RoadMap. 
+This challenge is part of Rocketseat's (@rocketseat-education) ReactJS RoadMap.
 In this exercise, we are given a Figma layout with the page design specification and we must develop it from scratch using Next.js and Chakra-ui resources. I also used json-server as a fake api for the continents page and random images from Unsplash for the cards and background images.
 
 <h2>Layout</h2>
@@ -20,24 +20,24 @@ This is how the application is suppose to look like.
   <li>Chakra-ui</li>
   <li>Json-server</li>
 </ul>
-  
+
 <h2>Application</h2>
 (to do...)
 
 <h2>How to run</h2>
 <p>1. First, we have to clone this project by running in a terminal window the command below:<p>
-<code>$ git clone git@github.com:camilamiz/chakra-ui-interface.git</code>
-  
+<pre>$ git clone git@github.com:camilamiz/chakra-ui-interface.git</pre>
+
 <p>2. Access the cloned repository with:</p>
-<code>$ cd chakra-ui-interface</code>
+<pre>$ cd chakra-ui-interface</pre>
 
 <p>3. Install the dependencies by running:</p>
-<code>$ yarn</code>
+<pre>$ yarn</pre>
 
 <p>4. Start the aplication</p>
-<code>yarn start</code>
+<pre>yarn start</pre>
 
 <p>5. In other terminal window run the command below to start the fake api</p>
-<code>json-server --watch db.json --port 3004</code>
+<pre>json-server --watch db.json --port 3004</pre>
 
 Now you can access the application by accessing in your browser the address https://localhost:3000
