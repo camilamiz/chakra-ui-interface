@@ -84,7 +84,7 @@ export default function Continent({ continent }: ContinentProps) {
           <Heading alignItems="flex-start">Cidades +100</Heading>
           <SimpleGrid columns={isWideVersion ? 4 : 1} py={["1rem", "2.5rem"]} spacing={["1.5rem", "2.25rem", "3rem"]}>
             {continent.cities.map(city => {
-              return(<CityCard city={city} />);
+              return(<CityCard city={city} key={city.name}/>);
             })}
           </SimpleGrid>
         </Stack>

@@ -13,7 +13,7 @@ interface CityCardProps {
 
 export function CityCard({ city }: CityCardProps) {
   return(
-    <Box w="256px" h="300x" color="yellow.500" border="1px solid" borderRadius="0.2rem" key={city.name}>
+    <Box w="256px" h="300x" color="yellow.500" border="1px solid" borderRadius="0.2rem">
       <Stack>
         <Img
           w="256px"
